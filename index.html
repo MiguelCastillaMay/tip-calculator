@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tip calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <h1>Tip calculator</h1>
+        <div>
+          <h3>Bill amount</h3>
+          <input type="number" id="total-input" placeholder="0" />
+        </div>
+        <div>
+          <h3>Guests number</h3>
+          <input type="number" id="guests-input" placeholder="0" />
+        </div>
+        <div>
+          <h3>Tip %</h3>
+          <select name="" id="percents-el">
+            <option value="0">0%</option>
+            <option value="5">5%</option>
+            <option value="10">10%</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+          </select>
+        </div>
+        <button id="submit-btn">Calculate</button>
+        <h3 id="tip-el">Tip</h3>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
